@@ -33,7 +33,21 @@ print(a <= b)   # True
 4 == 2+2 # TRUE
 7 != 3.5 * 2 # FALSE    
 
+
+
 # Create a simple grade-checking condition:
 
 # practice problem :
-# where a student must check if their score is greater than or equal to 60 to pass a test.# The password must be at least 8 characters long and contain at least one digit.password = "mypassword1"
+# where a student must check if their score is greater than or equal to 60 to pass a test.
+
+grade = int(input("Enter your score: "))
+if grade >= 60:
+    print("you passed!!")
+else:
+    print("you didn't pass. sorry.")
+# The password must be at least 8 characters long and contain at least one digit.password = "mypassword1"
+password = input("enter your password: ")
+if len(password) >= 8 and any(char.isdigit() for char in password):
+    print("password is va1id")
+else: 
+    print("Password is invalid")
