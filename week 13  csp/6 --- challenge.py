@@ -2,7 +2,7 @@
 # ##Day X Python Challenge — Commission & Bonus Calculator##
 
 ##Scenario:##
-You work for a school store that pays sales staff a ##commission## on monthly sales. Your manager wants a program that greets the salesperson by name, calculates their commission, and tells them whether they qualified for a monthly ##bonus##.
+# You work for a school store that pays sales staff a #commission## on monthly sales. Your manager wants a program that greets the salesperson by name, calculates their commission, and tells them whether they qualified for a monthly ##bonus##.
 
 ##Your program should:##
 
@@ -27,7 +27,7 @@ You work for a school store that pays sales staff a ##commission## on monthly sa
 
    # If the ##list total## is within ##$1## of the monthly sales, print: `"Sales breakdown verified."` else `"Sales breakdown does not match."`
 
----
+# ---
 
 ## ##Guidelines (read before you code)##
 
@@ -36,12 +36,12 @@ You work for a school store that pays sales staff a ##commission## on monthly sa
 # Use ##`round(value, 2)`## or formatted f-strings (e.g., `f"{value:.2f}"`) to display money.
 # Keep your code clear: name your variables meaningfully and add a couple of comments.
 
----
+# ---
 
 
 
-* Accept the three product sales in **one line** (comma-separated), then **split → map to float → list**.
-* Add input validation: if a user types a negative number or text for sales, print `"Invalid input"`.
-* Add a message for **top performers**: if sales `>= 20000 or commission >= 3000` → `"Top Performer!"`.
+# * Accept the three product sales in **one line** (comma-separated), then **split → map to float → list**.
+# * Add input validation: if a user types a negative number or text for sales, print `"Invalid input"`.
+# * Add a message for **top performers**: if sales `>= 20000 or commission >= 3000` → `"Top Performer!"`.
 
 
