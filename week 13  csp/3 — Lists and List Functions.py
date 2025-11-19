@@ -53,8 +53,91 @@ print(lists_of_items)
 lists_of_items  = list(range(1,1001))
 print(lists_of_items)
 print(len(lists_of_items))
-lists_of_items = list(range(1,1000001))
+lists_of_items = list(range(1,10))
 print(lists_of_items)
+
+
+# why use a list?
+# instead of using seperate variables 
+# for each item, we can store them in alist
+# this make sour job Easier
+#  this makes managing the complexity of our code EASIER
+# when we need to manage multiple items
+# perfomance task answer!!!!
+
+# sets and tuples are also part of the collections 
+# family in python 
+# sets examples
+set1 = {1, 2 , 3, 4 , 5}
+set2 = {"apple", "banana", "cherry"}
+print(set1)
+print(set2)
+print(type(set1))
+# why use sets instead of lists?
+# sets automatically handle duplicate items 
+# examples:
+set_with_duplicates = {1, 2, 2, 3, 4, 4, 5}
+print(set_with_duplicates)
+# sets are useful for membership testing
+print(3 in set1)
+print(6 in set2)
+# tuples examples:
+tuple1 = (1, 2, 3, 4, 5)
+tuple2 = ("apple", "banana", "cherry")
+print(tuple1)
+print(tuple2)
+print(type(tuple1))
+# why use tuples instead of lists
+# tuples are immutable, meaning they 
+# cannot be changed after creation
+# this makes tuples useful 
+# for storing data that should not be modified
+set1 = {1, 2, 3, 4, 5}
+print(set1)
+print(type(set1))
+set1.add(6)
+print(set1)
+set1.remove(2)
+print(set1)
+# sets drop duplicate items
+set2 = {"apple", "banana", "cherry", "cherry"}
+print(set2)
+
+# tuples examples 
+tuple1 = (1, 2, 3, 4, 5)
+print(tuple1)
+print(type(tuple1))
+# tuples are immutable, meaning they can't be changed
+# this makes tuples useful for storing data that should be modified
+social_security_number = (1234444, 4444445, 5676789)
+print(social_security_number)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
