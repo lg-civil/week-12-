@@ -176,3 +176,13 @@ print(social_security_number)
 # # Reverse your list using .reverse().
 
 # # Create a list of 3 lists (matrix), and access the middle element.
+
+
+
+
+
+
+
+# For sequencing:
+# lists_of_items = list(range(1,101))print(lists_of_items)# create a list of numberslists_of_items  = list(range(1,1001))print(lists_of_items)print(len(lists_of_items))lists_of_items = list(range(1,10))print(lists_of_items)def count_even_numbers(lists_of_items):
+        even_count = 0    for number in number_list:        if number % 2 == 0:  # Check if the remainder when divided by 2 is 0            even_count += 1    return even_countprint(count_even_numbers)
