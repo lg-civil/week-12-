@@ -176,3 +176,9 @@ print(social_security_number)
 # # Reverse your list using .reverse().
 
 # # Create a list of 3 lists (matrix), and access the middle element.
+
+num_list = [100, 20, 300, 40, 500, 60]
+
+for item in num_list:
+    if item >= 90:
+        print(item)
