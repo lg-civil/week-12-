@@ -182,3 +182,19 @@ num_list = [100, 20, 300, 40, 500, 60]
 for item in num_list:
     if item >= 90:
         print(item)
+
+
+the_list = [-2, -1, 0, 1, 2]
+count1 = 0
+count2 = 0
+
+for value in the_list:
+    if (value > 0):
+        count1 = count1 + 1
+    else:
+        count2 = count2 + 1
+
+
+print(count1)
+print(count2)
+
